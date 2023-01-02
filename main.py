@@ -29,8 +29,8 @@ upper_left = (40, 20)
 bottom_right = (500, 650)
 
 #camera = cv2.VideoCapture('rtsp://admin:brijesh123@192.168.1.101:554/Streaming/Channels/101')
-#camera = cv2.VideoCapture('http://192.168.168.244:8080/video')
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture('http://192.168.168.244:8080/video')
+#camera = cv2.VideoCapture(0)
 
 while True:
     check, frame = camera.read()
